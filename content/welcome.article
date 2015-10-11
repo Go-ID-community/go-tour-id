@@ -83,7 +83,7 @@ Klik tombol
 [[javascript:highlightAndClick(".next-page")]["selanjutnya"]]
 atau tekan `PageDown` untuk melanjutkan.
 
-#appengine: * Go offline
+#appengine: * Go luring
 #appengine: 
 #appengine: Tur ini juga tersedia dalam program yang berjalan tersendiri yang
 #appengine: dapat anda gunakan tanpa akses internet.

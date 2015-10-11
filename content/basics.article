@@ -232,7 +232,8 @@ Konstanta yang tidak bertipe menggunakan tipe yang dibutuhkan sesuai dengan kont
 
 Coba cetak juga `needInt(Big)`.
 
-(An `int` can store at maximum a 64-bit integer, and sometimes less.)
+(Sebuah `int` dapat menyimpan sebanyak 64-bit integer, dan terkadang lebih
+ sedikit, bergantung kepada mesin anda.)
 
 .play basics/numeric-constants.go
 

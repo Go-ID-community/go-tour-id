@@ -101,6 +101,8 @@ slice `a`:
 
 	a[1:4]
 
+`len(s)` mengembalikan panjang dari slice `s`.
+
 .play moretypes/slices.go
 
 
@@ -240,8 +242,10 @@ internals]].)
 
 Perintah `range` pada pengulangan `for` mengiterasi sebuah slice atau map.
 
-When ranging over a slice, two values are returned for each iteration.
-The first is the index, and the second is a copy of the element at that index.
+Saat melakukan pengulangan pada sebuah slice, dua nilai akan dikembalikan
+untuk setiap iterasi.
+Nilai yang pertama yaitu indeks, dan yang kedua yaitu salinan dari elemen pada
+indeks tersebut.
 
 .play moretypes/range.go
 

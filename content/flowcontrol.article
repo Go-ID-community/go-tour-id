@@ -69,6 +69,8 @@ dalam blok `else`.
 (Kedua pemanggilan ke `pow` dieksekusi dan dikembalikan sebelum pemanggilan ke
  `fmt.Println` di `main` dimulai.)
 
+(Kedua pemanggilan terhadap `pow` dieksekusi sebelum pemanggilan `main` terhadap `fmt.Println` dilakukan.)
+
 .play flowcontrol/if-and-else.go
 
 * Latihan: Pengulangan dan Fungsi
