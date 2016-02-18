@@ -101,7 +101,7 @@ slice `a`:
 
 	a[1:4]
 
-`len(s)` mengembalikan panjang dari slice `s`.
+`len(primes)` mengembalikan panjang dari slice `primes`.
 
 .play moretypes/slices.go
 
