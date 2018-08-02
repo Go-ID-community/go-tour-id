@@ -1,19 +1,22 @@
-A Tour of Go is an introduction to the Go programming language.
+Tur Bahasa Pemrograman Go adalah sebuah pengenalan dari bahasa pemrograman Go.
 
-The easiest way to install the tour locally is to install
-[a binary release of Go](https://golang.org/dl/) and then run:
+Cara paling mudah untuk memasang tur secara lokal adalah dengan memasang
+[rilis binari dari Go](https://golang.org/dl/)
+dan kemudian menjalankan:
 
-	$ go tool tour
+    $ go tool tour
 
-To install the tour from source, first 
-[set up a workspace](https://golang.org/doc/code.html) and then run:
+Untuk memasang tur dari sumber kode, pertama
+[siapkan sebuah _workspace_](https://golang.org/doc/code.html)
+dan kemudian jalankan:
 
-	$ go get golang.org/x/tour/gotour
+    $ go get golang.org/x/tour/gotour
 
-This will place a `gotour` binary in your workspace's `bin` directory.
+Perintah tersebut akan membuat program `gotour` dalam direktori `bin` di
+_workspace_ anda.
 
-Unless otherwise noted, the go-tour source files are distributed
-under the BSD-style license found in the LICENSE file.
+Kecuali bila dicantumkan, berkas sumber kode go-tour didistribusikan di bawah
+lisensi bermodelkan BSD yang bisa ditemukan pada berkas LICENSE.
 
-Contributions should follow the same procedure as for the Go project:
+Kontribusi sebaiknya mengikuti prosedur yang sama dengan proyek Go:
 https://golang.org/doc/contribute.html
